@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/exchange-rate-backend"
+]
+resolver = "2"
