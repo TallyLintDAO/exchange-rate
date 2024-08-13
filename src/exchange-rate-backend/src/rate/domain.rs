@@ -1,7 +1,7 @@
 use std::collections::HashMap;
-
-use candid::{CandidType, Principal};
+use candid::CandidType;
 use serde::{Deserialize, Serialize};
+use std::cmp::Eq;
 
 #[derive(Debug, Clone, CandidType, Serialize, Deserialize)]
 pub struct ExchangeRates{
@@ -10,21 +10,20 @@ pub struct ExchangeRates{
 
 #[derive(Debug, Clone, CandidType, Serialize, Deserialize)]
 pub struct ExchangeRate {
-    pub base: String,
-    pub date: String,
-    pub time_last_updated: String,
+    pub base_code: String,
+    pub time_last_update_utc: String,
+    #[serde(skip)]
     pub rates: HashMap<String,f64>,
-    pub timestamp: String,
+    pub time_last_update_unix: u64,
 }
 
 impl ExchangeRate {
-    pub fn new(base:String, date:String, time_last_updated:String, rates:HashMap<String,f64>, timestamp:String) -> Self {
+    pub fn new(base_code:String, time_last_update_utc:String, rates:HashMap<String,f64>, time_last_update_unix:u64) -> Self {
         ExchangeRate {
-        base:base.to_string(),
-        date:date.to_string(),
-        time_last_updated:time_last_updated.to_string(),
+        base_code:base_code.to_string(),
+        time_last_update_utc:time_last_update_utc.to_string(),
         rates:rates,
-        timestamp:timestamp.to_string()
+        time_last_update_unix:time_last_update_unix
     }
 }
 }
@@ -32,13 +31,23 @@ impl ExchangeRate {
 impl Default for ExchangeRate {
     fn default() -> Self {
         ExchangeRate {
-            base:String::new(),
-            date:String::new(),
-            time_last_updated:String::new(),
+            base_code:String::new(),
+            time_last_update_utc:String::new(),
             rates:HashMap::new(),
-            timestamp:String::new(),
+            time_last_update_unix:0,
         }
     }
     
 }
+
+impl PartialEq for ExchangeRate {
+    fn eq(&self, other: &Self) -> bool {
+        self.base_code == other.base_code &&
+        self.time_last_update_utc == other.time_last_update_utc &&
+        self.time_last_update_unix == other.time_last_update_unix 
+        // && self.rates.keys().eq(other.rates.keys())  
+    }
+}
+
+impl Eq for ExchangeRate {}
 

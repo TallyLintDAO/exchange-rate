@@ -7,6 +7,8 @@ thread_local! {
 }
 
 pub mod rate;
+pub mod common;
+
 #[ic_cdk::query]
 fn greet(name: String) -> String {
     format!("Hello, {}!", name)

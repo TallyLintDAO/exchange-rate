@@ -1,0 +1,246 @@
+== Info: Host api.exchangerate-api.com:443 was resolved.
+== Info: IPv6: (none)
+== Info: IPv4: 23.239.0.224, 23.239.5.70
+== Info:   Trying 23.239.0.224:443...
+== Info: Connected to api.exchangerate-api.com (23.239.0.224) port 443
+== Info: ALPN: curl offers h2,http/1.1
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: .........M..^....[.Wt....q..'..H..BV./ .:lg........Ft...Zk!.=mW.
+0040: ..Hk../.>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........api.exchangerate-api.com....................
+00c0: .....................h2.http/1.1.........1.....0................
+0100: .................................+........-.....3.&.$... ...@*k.
+0140: ...Xm...6K...`T...Z..@"Bh.......................................
+0180: ................................................................
+01c0: ................................................................
+== Info:  CAfile: /home/ydr/anaconda3/ssl/cacert.pem
+== Info:  CApath: none
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....z
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 122 bytes (0x7a)
+0000: ...v.......f.x?.MND...`%.......T8...N. .:lg........Ft...Zk!.=mW.
+0040: ..Hk../......+.....3.$... ...I>.s.O...c.z.s-)..W.......k.K
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....$
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+<= Recv SSL data, 19 bytes (0x13)
+0000: .................h2
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....A
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 2608 bytes (0xa30)
+0000: ...,...(...0...0...........TfA^*..h.k..J.N..0...*.H........031.0
+0040: ...U....US1.0...U....Let's Encrypt1.0...U....R110...240620101608
+0080: Z..240918101607Z0.1.0...U....exchangerate-api.com0.."0...*.H....
+00c0: .........0.............n......:!Uewv..R..?.^.A|L....._7..._M....
+0100: ._@i5....#.....6...^.......).%.k.....1..[.6JO...z...'.e2...%L.?M
+0140: J...P...~/L..,.Q.K...\..v3.q..).*A...e..r...yh..h..........M.)..
+0180: O%*..P.......".o..9%.C.gP.X]b...y....4."....U...>gwW.j..g}.....V
+01c0: `.........................00..,0...U...........0...U.%..0...+...
+0200: ......+.......0...U.......0.0...U......fSp..uX#....J.r.(&$.0...U
+0240: .#..0.....F.....zl..-.^./&..0W..+........K0I0"..+.....0...http:/
+0280: /r11.o.lencr.org0#..+.....0...http://r11.i.lencr.org/07..U...00.
+02c0: ..*.exchangerate-api.com..exchangerate-api.com0...U. ..0.0...g..
+0300: ...0.....+.....y............w.?.KO."GX..e.......7...j...(...dn..
+0340: ..5\p......H0F.!..G..5..j.....qVX...i....]....Z...!..s=..6c.P]..
+0380: ....T&...U.....m>^.r.u.v..?....Q.a....4....).hB...gLZ:t....5\q..
+03c0: ....F0D. ....n..d~.>.....]dUX.lA....TA..C. i....P....+A~.K.9....
+0400: t@..Q.'6..F0...*.H..............Ic.....,.X....Y.Up....~.FF..(...
+0440: ..!.........(G..-..Q<.:..3...]...@.....@J..Dc....Y$..v...p...z..
+0480: .....;H......"Ol...6..n........g.;r..9.~i..a..@../...b..........
+04c0: ..X...S...........s..L......f..c.....|..$.......N...mx!...#M69.@
+0500: ...e..|.......tD.A.w(..HUh.T.#......0...0............}>../0.#..)
+0540: .k4.0...*.H........0O1.0...U....US1)0'..U... Internet Security R
+0580: esearch Group1.0...U....ISRG Root X10...240313000000Z..270312235
+05c0: 959Z031.0...U....US1.0...U....Let's Encrypt1.0...U....R110.."0..
+0600: .*.H.............0...........\..9.....g...<.N.a.&.R.....(.(..'.$
+0640: .9g.....:.;w....9TA.N.A..t.Q..{.X......1..r.rj..t..F.d....."....
+0680: ..&z?..X.{....q....1....PM_..v=Z......f...fCH..e.7....2.........
+06c0: '...c..l.'gK..(^i.y.I\.$P......{@m...A?.X./.\..........9....E.x.
+0700: e*.._<..\M...'+..BwSOyj...........0..0...U...........0...U.%..0.
+0740: ..+.........+.......0...U.......0.......0...U........F.....zl..-
+0780: .^./&..0...U.#..0...y.Y.{....s.....X...n02..+........&0$0"..+...
+07c0: ..0...http://x1.i.lencr.org/0...U. ..0.0...g.....0'..U... 0.0...
+0800: ....http://x1.c.lencr.org/0...*.H.............N..]....8....q\...
+0840: .7.zo.%............r......SH...iB...>5......_.....I.......&...$.
+0880: H M..T...!..6..wd)...K.]..y.....#...J.H1t.D....-.q.u{.....F.....
+08c0: tH%*....C......../.j..1.c..)..f,?..gQ.A<.M.....fc...#..S..q....q
+0900: .6...*2..1|..s....J.jw.Z...E..*d.0>s.....;cJ.F....F@'`c.P:.G..J.
+0940: .G..Z.b..l3.M.8.H-..h..].L.. A_h..Z.....1..C.IC...?.<..E0i..r.y.
+0980: .1.>#W..O.....w.o........9K.U..j.......K...;r.J.T...8.`..n5.u.T.
+09c0: /.n....7.......uFOw..YV.f-n.).....^dE.,..dBD..O.............c.f.
+0a00: .r.........5.....s#t....;J..X.....5.~;E.0FRk....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, CERT verify (15):
+<= Recv SSL data, 264 bytes (0x108)
+0000: ............MJ.dM.c.......V...X.y.._073N.].....Tq...!..8i.X..L9\
+0040: ..,..`.....B./..L.e.hqlIe...d.Bf{...>G".s..x.oQ.&T.yF.!..p.L..).
+0080: Y............a.Q.`....d.....#....C.........0j..I7.T.......xb....
+00c0: .u.p#.)..l.D.=...y.k$...B.I....r.&..h/..c=....T...U.......@.U...
+0100: {k.i.l+.
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....E
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 52 bytes (0x34)
+0000: ...0..!.-.-...6.]+....z.3V.-...;....6...\....Q....H.
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....E
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 52 bytes (0x34)
+0000: ...0c.Pr_lg..+|Wr.j".h....Z...(....(.z-<..HD.....v..
+== Info: SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519 / RSASSA-PSS
+== Info: ALPN: server accepted h2
+== Info: Server certificate:
+== Info:  subject: CN=exchangerate-api.com
+== Info:  start date: Jun 20 10:16:08 2024 GMT
+== Info:  expire date: Sep 18 10:16:07 2024 GMT
+== Info:  subjectAltName: host "api.exchangerate-api.com" matched cert's "*.exchangerate-api.com"
+== Info:  issuer: C=US; O=Let's Encrypt; CN=R11
+== Info:  SSL certificate verify ok.
+== Info:   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+== Info:   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+== Info:   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha256WithRSAEncryption
+=> Send SSL data, 5 bytes (0x5)
+0000: ....Q
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: using HTTP/2
+== Info: [HTTP/2] [1] OPENED stream for https://api.exchangerate-api.com/v4/latest/USD
+== Info: [HTTP/2] [1] [:method: GET]
+== Info: [HTTP/2] [1] [:scheme: https]
+== Info: [HTTP/2] [1] [:authority: api.exchangerate-api.com]
+== Info: [HTTP/2] [1] [:path: /v4/latest/USD]
+== Info: [HTTP/2] [1] [user-agent: curl/8.5.0]
+== Info: [HTTP/2] [1] [accept: */*]
+== Info: [HTTP/2] [1] [content-type: application/json]
+== Info: [HTTP/2] [1] [content-length: 16]
+=> Send SSL data, 5 bytes (0x5)
+0000: ....v
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send header, 150 bytes (0x96)
+0000: GET /v4/latest/USD HTTP/2
+001b: Host: api.exchangerate-api.com
+003b: User-Agent: curl/8.5.0
+0053: Accept: */*
+0060: Content-Type: application/json
+0080: Content-Length: 16
+0094: 
+=> Send data, 16 bytes (0x10)
+0000: {"key": "value"}
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....J
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 57 bytes (0x39)
+0000: ...5... ..q........... .^..k..R..................L.......
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....J
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 57 bytes (0x39)
+0000: ...5... .D.[.......... E..OP^.a...^...F....m...hK..Ot....
+== Info: old SSL session ID is stale, removing
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....9
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....;
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+<= Recv header, 15 bytes (0xf)
+0000: server: nginx
+<= Recv header, 37 bytes (0x25)
+0000: date: Fri, 09 Aug 2024 03:16:39 GMT
+<= Recv header, 32 bytes (0x20)
+0000: content-type: application/json
+<= Recv header, 32 bytes (0x20)
+0000: access-control-allow-origin: *
+<= Recv header, 37 bytes (0x25)
+0000: cache-control: public, max-age=3600
+<= Recv header, 29 bytes (0x1d)
+0000: x-frame-options: SAMEORIGIN
+<= Recv header, 33 bytes (0x21)
+0000: x-content-type-options: NOSNIFF
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 2185 bytes (0x889)
+0000: {"provider":"https://www.exchangerate-api.com","WARNING_UPGRADE_
+0040: TO_V6":"https://www.exchangerate-api.com/docs/free","terms":"htt
+0080: ps://www.exchangerate-api.com/terms","base":"USD","date":"2024-0
+00c0: 8-09","time_last_updated":1723161602,"rates":{"USD":1,"AED":3.67
+0100: ,"AFN":70.83,"ALL":91.63,"AMD":387.91,"ANG":1.79,"AOA":888.09,"A
+0140: RS":937.58,"AUD":1.52,"AWG":1.79,"AZN":1.7,"BAM":1.79,"BBD":2,"B
+0180: DT":117.5,"BGN":1.79,"BHD":0.376,"BIF":2882.27,"BMD":1,"BND":1.3
+01c0: 3,"BOB":6.9,"BRL":5.63,"BSD":1,"BTN":83.99,"BWP":13.56,"BYN":3.2
+0200: 6,"BZD":2,"CAD":1.37,"CDF":2843.12,"CHF":0.865,"CLP":944.15,"CNY
+0240: ":7.18,"COP":4136.55,"CRC":527.72,"CUP":24,"CVE":100.99,"CZK":23
+0280: .13,"DJF":177.72,"DKK":6.83,"DOP":59.51,"DZD":134.66,"EGP":49.26
+02c0: ,"ERN":15,"ETB":98.64,"EUR":0.916,"FJD":2.24,"FKP":0.785,"FOK":6
+0300: .83,"GBP":0.785,"GEL":2.71,"GGP":0.785,"GHS":15.64,"GIP":0.785,"
+0340: GMD":69.7,"GNF":8658.74,"GTQ":7.72,"GYD":209.24,"HKD":7.79,"HNL"
+0380: :24.76,"HRK":6.9,"HTG":131.59,"HUF":362.95,"IDR":15943.48,"ILS":
+03c0: 3.78,"IMP":0.785,"INR":83.99,"IQD":1310.63,"IRR":42093.05,"ISK":
+0400: 138.22,"JEP":0.785,"JMD":156.88,"JOD":0.709,"JPY":147.17,"KES":1
+0440: 28.99,"KGS":84.6,"KHR":4119.81,"KID":1.52,"KMF":450.58,"KRW":137
+0480: 5.33,"KWD":0.306,"KYD":0.833,"KZT":477.41,"LAK":22071.19,"LBP":8
+04c0: 9500,"LKR":300.95,"LRD":196.8,"LSL":18.36,"LYD":4.81,"MAD":9.83,
+0500: "MDL":17.68,"MGA":4562.67,"MKD":56.32,"MMK":2101.81,"MNT":3364.0
+0540: 8,"MOP":8.03,"MRU":39.59,"MUR":46.25,"MVR":15.42,"MWK":1741.94,"
+0580: MXN":19.03,"MYR":4.47,"MZN":63.92,"NAD":18.36,"NGN":1587.33,"NIO
+05c0: ":36.79,"NOK":10.85,"NPR":134.39,"NZD":1.67,"OMR":0.384,"PAB":1,
+0600: "PEN":3.73,"PGK":3.91,"PHP":57.42,"PKR":278.88,"PLN":3.96,"PYG":
+0640: 7584.11,"QAR":3.64,"RON":4.55,"RSD":107.07,"RUB":86.57,"RWF":132
+0680: 7.54,"SAR":3.75,"SBD":8.49,"SCR":13.71,"SDG":511.54,"SEK":10.52,
+06c0: "SGD":1.33,"SHP":0.785,"SLE":22.55,"SLL":22546.69,"SOS":571.23,"
+0700: SRD":28.98,"SSP":2049.11,"STN":22.44,"SYP":12896.69,"SZL":18.36,
+0740: "THB":35.29,"TJS":10.61,"TMT":3.5,"TND":3.09,"TOP":2.35,"TRY":33
+0780: .54,"TTD":6.76,"TVD":1.52,"TWD":32.38,"TZS":2695.13,"UAH":41.03,
+07c0: "UGX":3727.52,"UYU":40.58,"UZS":12664.56,"VES":36.68,"VND":25134
+0800: .9,"VUV":120.78,"WST":2.76,"XAF":600.78,"XCD":2.7,"XDR":0.749,"X
+0840: OF":600.78,"XPF":109.29,"YER":250.19,"ZAR":18.36,"ZMW":26.08,"ZW
+0880: L":13.8}}
+== Info: Connection #0 to host api.exchangerate-api.com left intact
